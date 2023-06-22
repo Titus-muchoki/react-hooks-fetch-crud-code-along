@@ -13,6 +13,10 @@ function ShoppingList() {
     .then((items) =>  setItems(items))
   }, []);
 
+  function handleDeleteItem(deletedItem){
+    console.log("In ShoppingCart:", deletedItem)
+  }
+
 
   function handleUpdateItem(updatedItem){
     const updatedItems = items.map((item) => {

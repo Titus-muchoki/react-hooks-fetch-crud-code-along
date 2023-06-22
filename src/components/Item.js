@@ -1,9 +1,13 @@
 import React from "react";
 
-function Item({ item, onUpdateItem }) {
+function Item({ item, onUpdateItem, onDeleteItem}) {
 
   function handleDeleteClick(){
-    console.log(item);
+    fetch(`http://localhost:4000/items/${item.id}`,{
+      method: "DELETE",
+    })
+    .then((r) => r.json())
+    .then(() => onDeleteItem(item))
   }
 
   function handleAddToCartClick() {
