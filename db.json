@@ -35,6 +35,30 @@
       "name": "Cookies",
       "category": "Dessert",
       "isInCart": false
+    },
+    {
+      "name": "Little Green Men",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 7
+    },
+    {
+      "name": "Little Green Men",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 8
+    },
+    {
+      "name": "Little Green Men",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 9
+    },
+    {
+      "name": "Titus Muchoki",
+      "category": "Dessert",
+      "isInCart": false,
+      "id": 10
     }
   ]
 }

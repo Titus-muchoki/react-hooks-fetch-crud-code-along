@@ -1,7 +1,7 @@
 // import { body } from "msw/lib/types/context";
 import React, { useState } from "react";
 
-function ItemForm(onAddItem) {
+function ItemForm({onAddItem}) {
   const [name, setName] = useState("");
   const [category, setCategory] = useState("Produce");
 
